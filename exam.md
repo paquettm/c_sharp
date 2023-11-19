@@ -112,7 +112,8 @@ Explain what makes while and do..while control structures pre-condition or post-
 
 Explain when you would use the for loop as opposed to the while loop.
 
-## Further questions
+
+# Older exam
 
 
         // 1- In your own words, correctly define "sequential control structure":
@@ -196,6 +197,56 @@ Explain when you would use the for loop as opposed to the while loop.
 
 
 # SOLUTION
+
+1- In your own words, correctly define "sequential control structure":
+    Instructions running line by line one after the other in the order
+    defined by the line ordering.
+    
+2- In your own words, correctly define "branching":
+    This is code allowing the program to select instructions to run based on 
+    conditions.
+
+3- In your own words, correctly define "looping":
+    The repetition of instruction blocks.
+
+4- When does code repetition stop in a while True: statement?
+b)once the break command is called
+    
+5- What is an infinite loop?
+    A loop where the repetition never stops because the stopping condition
+    is never reached.
+
+6- What is a variable?
+    This is a named container for a value or values.
+
+7- How do we get input from a user in C#?
+    Using the input() command.
+
+8- In your own words, what is a collection?
+    This is an object that allow the storage of multiple values. E.g., lists
+
+9- What could you use to output each character in a string?
+a)for
+b)while
+c)none of the above
+    a or b were both right. 
+    
+10- What is the difference between strings and f-strings?
+c)the way to include values from variables
+    f"The value is {variable}"
+
+11- There are many primitive data types supported by C#. Write 2 such data types.
+    bool, int, float, str
+
+12- What must we use to store a value in a C# program?
+    a variable, the assignment operator (=)
+
+13- What is the value of the arithmetic expression 3 / 2 + 2 * 1000?
+    3 / 2 + 2 * 1000
+    1.5 + 2000
+    2001.5
+
+
         /*
         Task 1:
         Assign to a variable called "theList" the list that contains "horse", "bee", and "cat". Print this list.
