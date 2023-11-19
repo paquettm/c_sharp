@@ -115,76 +115,41 @@ Explain when you would use the for loop as opposed to the while loop.
 ## Further questions
 
 
-Certainly! Below is the equivalent C# code for the provided questionnaire:
-
-```csharp
-using System;
-
-class Exam
-{
-    static void Main()
-    {
-        /*
-        THEORETICAL PART (2 points per correct answer) /26
-        ----------------------------------------------
-        */
-
         // 1- In your own words, correctly define "sequential control structure":
-        Console.WriteLine("1- In your own words, correctly define \"sequential control structure\":");
+
 
         // 2- In your own words, correctly define "branching":
-        Console.WriteLine("2- In your own words, correctly define \"branching\":");
+
 
         // 3- In your own words, correctly define "looping":
-        Console.WriteLine("3- In your own words, correctly define \"looping\":");
+
 
         // 4- When does code repetition stop in a while True: statement?
         // a) It is impossible to stop
         // b) once the break command is called
         // c) after 3 times, always
-        Console.WriteLine("4- When does code repetition stop in a while True: statement?");
-        Console.WriteLine("a) It is impossible to stop");
-        Console.WriteLine("b) once the break command is called");
-        Console.WriteLine("c) after 3 times, always");
+
 
         // 5- What is an infinite loop?
-        Console.WriteLine("5- What is an infinite loop?");
+
 
         // 6- What is a variable?
-        Console.WriteLine("6- What is a variable?");
 
-        // 7- How do we get input from a user in Python?
-        Console.WriteLine("7- How do we get input from a user in Python?");
+
+        // 7- How do we get input from a user in C#?
+
 
         // 8- In your own words, what is a collection?
-        Console.WriteLine("8- In your own words, what is a collection?");
+ 
 
-        // 9- What could you use to output each character in a string?
-        // a) for
-        // b) while
-        // c) none of the above
-        Console.WriteLine("9- What could you use to output each character in a string?");
-        Console.WriteLine("a) for");
-        Console.WriteLine("b) while");
-        Console.WriteLine("c) none of the above");
+         // 9- There are many primitive data types supported by C#. Write 2 such data types.
 
-        // 10- What is the difference between strings and f-strings?
-        // a) the way you write the letters inside
-        // b) the way you write escape sequences in them
-        // c) the way to include values from variables
-        Console.WriteLine("10- What is the difference between strings and f-strings?");
-        Console.WriteLine("a) the way you write the letters inside");
-        Console.WriteLine("b) the way you write escape sequences in them");
-        Console.WriteLine("c) the way to include values from variables");
 
-        // 11- There are many primitive data types supported by Python. Write 2 such data types.
-        Console.WriteLine("11- There are many primitive data types supported by Python. Write 2 such data types.");
+        // 10- What must we use to store a value in a program?
 
-        // 12- What must we use to store a value in a Python program?
-        Console.WriteLine("12- What must we use to store a value in a Python program?");
 
-        // 13- What is the value of the arithmetic expression 3 // 2 + 2 * 1000 in Python?
-        Console.WriteLine("13- What is the value of the arithmetic expression 3 // 2 + 2 * 1000 in Python?");
+        // 11- What is the value of the arithmetic expression 3 / 2 + 2 * 1000?
+
 
 
         /*
@@ -227,19 +192,10 @@ class Exam
 }
 ```
 
-Note: For the theoretical part, I left the spaces empty where the answers are supposed to be written. You can fill in the answers accordingly.
 
 
 
-
-```csharp
-using System;
-using System.Collections.Generic;
-
-class Program
-{
-    static void Main()
-    {
+# SOLUTION
         /*
         Task 1:
         Assign to a variable called "theList" the list that contains "horse", "bee", and "cat". Print this list.
